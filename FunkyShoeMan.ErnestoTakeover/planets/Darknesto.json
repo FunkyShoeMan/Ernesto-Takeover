@@ -1,0 +1,28 @@
+{
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "name": "Darknesto",
+    "Base": {
+        "surfaceSize": 300,
+        "surfaceGravity": 9,
+        "hasMapMarker": false
+    },
+    "Orbit": {
+        "semiMajorAxis": 20000,
+        "primaryBody": "sun",
+        "isMoon": false,
+        "trueAnomaly": 100
+    },
+    "Props": {
+        "details": [{
+            "path": "Anglerfish_Body/Beast_Anglerfish",
+            "scale": 4,
+            "keepLoaded": true
+        },
+        {
+            "path": "Anglerfish_Body/Beast_Anglerfish_Collision",
+            "scale": 4,
+            "keepLoaded": true
+        }
+        ]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "name": "The Anglerrock",
+    "Base": {
+        "surfaceSize": 120,
+        "surfaceGravity": 9,
+        "hasMapMarker": true
+    },
+    "Orbit": {
+        "semiMajorAxis": 900,
+        "primaryBody": "TIMBER_HEARTH",
+        "isMoon": true,
+        "isTidallyLocked": true
+    },
+    "Props": {
+        "details": [{
+            "path": "Anglerfish_Body/Beast_Anglerfish",
+            "scale": 1.5,
+            "keepLoaded": true
+        },
+        {
+            "path": "Anglerfish_Body/Beast_Anglerfish_Collision",
+            "scale": 1.5,
+            "keepLoaded": true
+        }
+        ]
+    }
+}

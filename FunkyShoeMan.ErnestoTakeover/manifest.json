@@ -1,0 +1,9 @@
+{
+  "filename": "NewHorizonsConfig.dll",
+  "author": "FunkyShoeMan",
+  "name": "Ernesto Takeover",
+  "uniqueName": "FunkyShoeMan.ErnestoTakeover",
+  "version": "0.1.0",
+  "owmlVersion": "2.7.3",
+  "dependencies": [ "xen.NewHorizons" ]
+}

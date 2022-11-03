@@ -1,0 +1,27 @@
+{
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "name": "Angler's Lantern",
+    "Base": {
+        "surfaceSize": 150,
+        "surfaceGravity": 9,
+        "hasMapMarker": true
+    },
+    "Orbit": {
+        "semiMajorAxis": 1000,
+        "primaryBody": "Ernesto's Hollow",
+        "isMoon": true
+    },
+    "Props": {
+        "details": [{
+            "path": "Anglerfish_Body/Beast_Anglerfish",
+            "scale": 1.8,
+            "keepLoaded": true
+        },
+        {
+            "path": "Anglerfish_Body/Beast_Anglerfish_Collision",
+            "scale": 1.8,
+            "keepLoaded": true
+        }
+        ]
+    }
+}

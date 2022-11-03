@@ -1,0 +1,20 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "The Hourglass Fins",
+	"Base": {
+		"gravityFallOff": "linear",
+		"hasMapMarker": true,
+		"invulnerableToSun": true,
+		"surfaceGravity": 1,
+		"surfaceSize": 1.0
+	},
+	"Orbit": {
+		"primaryBody": "Sun",
+		"semiMajorAxis": 5000.0,
+        "trueAnomaly": 130
+	},
+    "FocalPoint": {
+		"primary": "Angler Twin",
+		"secondary": "Fish Twin"
+	}
+}

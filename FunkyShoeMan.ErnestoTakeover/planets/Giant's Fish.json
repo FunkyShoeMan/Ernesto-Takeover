@@ -1,0 +1,28 @@
+{
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "name": "Giant's Fish",
+    "Base": {
+        "surfaceSize": 750,
+        "surfaceGravity": 9,
+        "hasMapMarker": true
+    },
+    "Orbit": {
+        "semiMajorAxis": 16457,
+        "primaryBody": "sun",
+        "isMoon": false,
+        "trueAnomaly": 280
+    },
+    "Props": {
+        "details": [{
+            "path": "Anglerfish_Body/Beast_Anglerfish",
+            "scale": 10,
+            "keepLoaded": true
+        },
+        {
+            "path": "Anglerfish_Body/Beast_Anglerfish_Collision",
+            "scale": 10,
+            "keepLoaded": true
+        }
+        ]
+    }
+}

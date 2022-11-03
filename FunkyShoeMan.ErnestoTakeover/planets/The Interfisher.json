@@ -1,0 +1,31 @@
+{
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "name": "The Interfisher",
+    "Base": {
+        "invulnerableToSun": true,
+        "surfaceSize": 120,
+        "surfaceGravity": 9,
+        "hasMapMarker": true,
+        "hasCometTail": true
+    },
+    "Orbit": {
+        "semiMajorAxis": 13000,
+        "primaryBody": "sun",
+        "isMoon": false,
+        "eccentricity": 0.8,
+        "trueAnomaly": 180
+    },
+    "Props": {
+        "details": [{
+            "path": "Anglerfish_Body/Beast_Anglerfish",
+            "scale": 1.53,
+            "keepLoaded": true
+        },
+        {
+            "path": "Anglerfish_Body/Beast_Anglerfish_Collision",
+            "scale": 1.53,
+            "keepLoaded": true
+        }
+        ]
+    }
+}

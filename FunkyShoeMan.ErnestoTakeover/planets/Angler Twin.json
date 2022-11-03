@@ -1,0 +1,28 @@
+{
+    "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+    "name": "Angler Twin",
+    "Base": {
+        "groundSize": 0.5,
+        "surfaceSize": 225,
+        "surfaceGravity": 9,
+        "hasMapMarker": true
+    },
+    "Orbit": {
+        "semiMajorAxis": 250,
+        "primaryBody": "The Hourglass Fins",
+        "isMoon": true
+    },
+    "Props": {
+        "details": [{
+            "path": "Anglerfish_Body/Beast_Anglerfish",
+            "scale": 2,
+            "keepLoaded": true
+        },
+        {
+            "path": "Anglerfish_Body/Beast_Anglerfish_Collision",
+            "scale": 2,
+            "keepLoaded": true
+        }
+        ]
+    }
+}
